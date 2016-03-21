@@ -1,0 +1,36 @@
+body {
+  background-color: #1b2b34;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  display: -webkit-box; }
+  .container .controll-bar {
+    text-align: center;
+    width: 300px;
+    -webkit-box-flex: 1; }
+    .container .controll-bar .score {
+      width: 100%;
+      height: 50px;
+      color: #ffffff;
+      margin-top: 200px; }
+    .container .controll-bar button {
+      width: 80px;
+      height: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      background-color: #73c09a; }
+  .container .view {
+    width: 700px;
+    -webkit-box-flex: 1; }
+    .container .view canvas {
+      width: 600px;
+      height: 600px;
+      margin: 50px auto;
+      margin-bottom: 0;
+      border: 2px solid #cccccc;
+      background: url(bg.jpg); }
+
+/*# sourceMappingURL=main.css.map */

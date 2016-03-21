@@ -1,0 +1,40 @@
+body {
+	background-color: rgb(27, 43, 52);
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	display: -webkit-box;
+	.controll-bar {
+		text-align: center;
+		width: 300px;
+		-webkit-box-flex: 1;
+		.score {
+			width: 100%;
+			height: 50px;
+			color: #ffffff;
+			margin-top: 200px;
+		}
+		button {
+			width: 80px;
+			height: 30px;
+			border-radius: 5px;
+			cursor: pointer;
+			outline: none;
+			background-color: rgb(115, 192, 154);
+		}
+	}
+	.view {
+		width: 700px;
+		-webkit-box-flex: 1;
+		canvas {
+			width: 600px;
+			height: 600px;
+			margin: 50px auto;
+			margin-bottom: 0;
+			border: 2px solid #cccccc;
+			background: url(bg.jpg)
+		}
+	}
+}
